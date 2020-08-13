@@ -1,18 +1,5 @@
-# python3 JPG-PNG.py Pokedex/ new/
-# takes in two arguments, the folder where the jpg pics are and a folder where the png pics will be placed
-
-import sys
 import os
 from PIL import Image
-
-# using sys, grab first and second args
-# check if new/ exists, if not, create it
-# loop through the jpg folder and then convert each image to png
-# save them to the new folder
-
-# how to use sys module to grab command line arguments
-# how to us os or pathlib module to grab path so that you can create files and suc
-# converting to png with pillow
 
 curr_dir = './' + \
     input('Enter the name of the folder your JPG images are in: ')

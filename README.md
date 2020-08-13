@@ -17,7 +17,7 @@ $ python3 -m pip install --upgrade Pillow
 $ mkdir my_folder
 ```
 
-5. Run the program with:
+5. Run the script with:
 
 ```
 $ python3 JPG-PNG.py
